@@ -13,8 +13,9 @@ import styled from 'styled-components';
 // ------------------------------
 // This section has all necessary styled components
 const StyledLanding = styled.div`
+  /* width: 100vw;
   height: 100vh;
-  background-color: pink;
+  overflow: hidden; */
 `;
 
 // ------------------------------
@@ -28,13 +29,17 @@ function Landing() {
         src="/videos/fireworks.mp4"
         type="video/mp4"
         poster="fallback-image.jpg"
-        controls
         autoPlay
         muted
         loop
         playsInline
-        preload="metadata"
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        preload="auto"
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          pointerEvents: 'none',
+        }}
       ></video>
     </StyledLanding>
   );
