@@ -246,7 +246,7 @@ function Navigation() {
         <Object>
           <Icon onClick={scrollToTop}>
             {/* <!--  Container for logo and title --> */}
-            <Logo src="/logos/helloworld.webp" alt="worldhello"></Logo>
+            <Logo src="/logos/fireworks.png" alt="fireworks!"></Logo>
           </Icon>
         </Object>
         <Object>
