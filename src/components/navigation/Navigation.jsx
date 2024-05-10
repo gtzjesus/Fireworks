@@ -85,7 +85,7 @@ const MenuContainer = styled.div`
 `;
 
 const Title = styled.span`
-  font-size: var(--font-medium);
+  font-size: var(--font-smmd);
   color: var(--color-yellow);
 `;
 
@@ -255,7 +255,7 @@ function Navigation() {
           </Icon>
         </Object>
         <Object>
-          <Title>Fireworks</Title>
+          <Title>Fireworks | El Paso</Title>
         </Object>
         <Object>
           {/* <!-- Menu Container for links --> */}
