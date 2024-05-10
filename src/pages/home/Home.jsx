@@ -26,9 +26,11 @@ const ResponsiveContainer = styled.div`
 // This section has our React Component which handles the data
 function Home() {
   return (
-    <ResponsiveContainer>
+    <>
       <Navigation />
-    </ResponsiveContainer>
+
+      <ResponsiveContainer></ResponsiveContainer>
+    </>
   );
 }
 
