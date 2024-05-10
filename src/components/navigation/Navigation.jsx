@@ -85,7 +85,8 @@ const MenuContainer = styled.div`
 `;
 
 const Title = styled.span`
-  font-size: var(--font-xxxsmall);
+  font-size: var(--font-medium);
+  color: var(--color-yellow);
 `;
 
 const Menu = styled.button`
