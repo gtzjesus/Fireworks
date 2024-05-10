@@ -12,7 +12,6 @@ import Navigation from '../../components/navigation/Navigation';
 
 /* Media query for larger devices */
 const ResponsiveContainer = styled.div`
-  color: red;
   @media (min-width: 768px) {
     max-width: 600px; /* Adjust as needed */
     margin: 0 auto; /* Center the container horizontally */

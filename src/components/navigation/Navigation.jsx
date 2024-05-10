@@ -44,8 +44,8 @@ const StyledNav = styled.nav`
   position: fixed;
   background: ${({ isScrolled }) =>
     isScrolled
-      ? 'var(--color-black)'
-      : 'transparent'}; /* Change background based on isScrolled */
+      ? 'var(--color-white)'
+      : 'var(--color-white)'}; /* Change background based on isScrolled */
   width: var(--width-full-window);
   z-index: var(--z-top);
   height: var(--height-navigation);
@@ -246,7 +246,7 @@ function Navigation() {
         <Object>
           <Icon onClick={scrollToTop}>
             {/* <!--  Container for logo and title --> */}
-            <Logo src="/logos/fireworks.png" alt="fireworks!"></Logo>
+            <Logo src="/logos/fireworks.gif" alt="fireworks!"></Logo>
           </Icon>
         </Object>
         <Object>
@@ -256,7 +256,7 @@ function Navigation() {
               <MenuImg src="/icons/close.webp" alt="Close"></MenuImg>
             ) : (
               <>
-                <MenuImg src="/icons/menu.webp" alt="Menu"></MenuImg>
+                <MenuImg src="/icons/menu.png" alt="Menu"></MenuImg>
               </>
             )}
           </Menu>

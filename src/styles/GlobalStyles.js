@@ -42,12 +42,13 @@ const GlobalStyles = createGlobalStyle`
 
 
     /* Colors */
-    --color-red: #991b1b;
+    --color-me:  #000654;
+    --color-red: #D42729;
+    /* --color-red: #FF0000; */
     --color-black: #121212;
     --color-yellow: #e7e167;
-    --color-white: #F5F5F5;
+    --color-white: #FFFF;
     --color-super-white: #FFFF
-    --color-blue: #455e71;
     --color-link: #006ED4;
     --color-green: #6A7744;
     --color-tan: #FAF0E6;
