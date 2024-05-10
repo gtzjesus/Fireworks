@@ -256,7 +256,7 @@ function Navigation() {
               <MenuImg src="/icons/close.webp" alt="Close"></MenuImg>
             ) : (
               <>
-                <MenuImg src="/icons/menu.png" alt="Menu"></MenuImg>
+                <MenuImg src="/icons/menu.webp" alt="Menu"></MenuImg>
               </>
             )}
           </Menu>
@@ -265,11 +265,11 @@ function Navigation() {
       <MenuContainer isOpen={isMenuOpen}>
         <MenuContent>
           <MenuItem className="menu-item">
-            <Link to="performance-section">Performance</Link>
+            <Link to="location-section">Find Location</Link>
             <br />
             <br />
 
-            <Link to="clients-section">Clients</Link>
+            <Link to="fireworks-section">Fireworks</Link>
             <br />
             <br />
 
