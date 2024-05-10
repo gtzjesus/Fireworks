@@ -84,6 +84,10 @@ const MenuContainer = styled.div`
   animation: ${fadeIn} 1.5s ease, ${slideIn} 1.5s ease;
 `;
 
+const Title = styled.span`
+  font-size: var(--font-xxxsmall);
+`;
+
 const Menu = styled.button`
   position: relative;
   background-color: transparent;
@@ -248,6 +252,9 @@ function Navigation() {
             {/* <!--  Container for logo and title --> */}
             <Logo src="/logos/fireworks.gif" alt="fireworks!"></Logo>
           </Icon>
+        </Object>
+        <Object>
+          <Title>Fireworks</Title>
         </Object>
         <Object>
           {/* <!-- Menu Container for links --> */}
