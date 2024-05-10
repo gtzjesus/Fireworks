@@ -9,6 +9,7 @@
 // This section has all necessary imports for this component.
 import styled from 'styled-components';
 import Navigation from '../../components/navigation/Navigation';
+import Landing from '../../components/landing/Landing';
 
 /* Media query for larger devices */
 const ResponsiveContainer = styled.div`
@@ -24,7 +25,14 @@ const ResponsiveContainer = styled.div`
 // ------------------------------
 // This section has our React Component which handles the data
 function Home() {
-  return <Navigation />;
+  return (
+    <>
+      <Navigation />
+      <ResponsiveContainer>
+        <Landing />
+      </ResponsiveContainer>
+    </>
+  );
 }
 
 export default Home;
